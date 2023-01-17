@@ -1,0 +1,367 @@
+<!DOCTYPE HTML>
+<html lang="es" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Estilos Css</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!--Tamaño de letras-->
+        <ul>
+           <td>En este parrafo,</td> <b>las palabras se deben mostrar en negrilla,</b> <td>en un navegador web</td>
+            <p class="tam"> Esto está a un tamaño de 40px</p>
+            <li class="peque">Esto está a un tamaño small</li>
+            <li class="med">Esto está a un tamaño medium</li>
+            <li class="larg">Esto está a un tamaño large</li>
+            <li class="xlarg">Esto está a un tamaño xx-large</li>  
+            <li class="xxsm">Esto está a un tamaño xx-small</li>
+            <li class="mp">Esto está a un tamaño very small</li>
+            <li class="pr1">Esto está a un tamaño de 80%</li>
+            <li class="pr2">Esto está a un tamaño de 200%</li>
+            <li class="pr3">Esto está a un tamaño de 300%</li>
+            <li class="pb"><b>Pruebas de formatos</b></li>
+        </ul>
+
+            <!--Subindice y Superindice-->
+            <div class="spi1">
+                <td>Tamaño normal</td> <sub>Esto es un subindice</sub>
+            <p>Texto normal.<sup>Texto superíndice.</sup></p>
+            </div>
+
+           <!--Cuadrado-->
+            <div id="cuadrado">
+                <b>
+                <li>#000000 negro</li>
+                <li style="color:white;">#FFFFFF blanco</li>
+                <li style="color:red;">FF0000 rojo</li>
+                <li style="color:green;">00FF00 verde</li>
+                <li style="color:blue;">0000FF azul</li>
+                <li style="color:yellow;">FFFF00 amarillo</li>
+                <li style="color:purple;">FF00FF morado, mezcla de rojo y azul</li>
+            </b>
+            </div>
+            
+            <!--Primera tabla de celdas-->
+            <div id="tabla1">
+              <table id="prtabla">
+              <caption>Titulo de la tabla</caption>
+                <thead class="cabecera">
+                    <tr class="rojo">
+                    <td colspan="3" class="bajo"> Celda 1</td>
+                    </tr>
+                </thead>
+                <thead class="cuerpo">
+                    <tr>
+                        <td rowspan="2" class="al"> Celda 2 </td>
+                        <td class="ce"> Celda 3 </td>
+                        <td> Celda 4 </td>
+                    </tr>
+                    <tr>
+                        <td class="ce"> Celda 5</td>
+                        <td  class="de"  rowspan="2"> Celda 6 </td>
+                    </tr>
+                    <tr>
+                        <td class="be"> Celda 7 </td>
+                        <td class="ce"> Celda 8 </td>
+                    </tr>
+                </thead>
+             </table>	
+            </div>
+
+                <!--Letras cursivas-->
+
+            <div id="cursiva"> En este párrafo,<i>"estas palabras se deben mostrar en cursiva"</i>,en un navegador web.</div>
+
+                <!--Segunda tabla -->
+                <p> 
+                 <table border=1 style="margin: 0 auto;" class="A1">
+                    <div id="tablas2">
+                        <tr>
+                            <td>uno</td>
+                            <td>dos</td>
+                            <td>tres</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>cuatro</td>
+                            <td>cinco</td>
+                            <td>seis</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>siete</td>
+                            <td>ocho</td>
+                            <td>nueve</td>
+                        </tr>
+                        <tr>
+                            <td>diez</td>
+                            <td>once</td>
+                            <td>doce</td>
+                        </tr>
+                    </div>
+                 </table>
+                </p>
+                <br>
+                <br>
+
+                <!--Tercera tabla-->
+                <title>Lista de la compra</title>
+
+        <table border="1" class="A2">  
+            <tr>
+                <td class="a">Producto</td>
+                <td class="a">Cantidad</td>
+                <td class="a">Precio</td> 
+            </tr>
+
+            <div class="Center">
+            <tr>
+                <td style="color: green;">Destornillador</td>
+                <td style="color: green;">1</td>
+                <td style="color: green;">3</td>
+            </tr>
+            
+            <tr>
+                <td style="color: green;">Llave inglesa</td>
+                <td style="color: green;">2</td>
+                <td style="color: green;">5</td>
+            </tr>
+            
+            <tr>
+                <td style="color: green;">Martillo</td>
+                <td style="color: green;">1</td>
+                <td style="color: green;">7</td>
+            </tr>
+
+            <tr>
+                <td style="color: red;" colspan="2">Total</td>
+                <td style="color: red;">20</td>
+            </tr>
+            </div>
+        </table>
+        <br>
+        <br>
+        <!--Parrafos-->
+            <div class="parrf">
+                <p>Primer párrafo.</p>
+                <font color=red><p>Segundo párrafo.</p></font>
+                <font color=red> <p>Tercer párrafo.</p></font>
+                <p>Cuarto párrafo. </p> 
+            </div>
+    <!--Cuarta tabla-->
+        <br>
+        <br>
+        <table border="2" class="A3">
+            <tr>
+                <td class="b"><b>Color</td></b>
+                <td class="b"><b>Color Hex</td></b>
+                <td class="b"><b>Codigo texto</td></b>  
+            </tr>  
+            
+            <tr>
+                <td style="color:yellow" class="c">Negro</td>
+                <td style="color: #C71585" class="d">#000000</td>
+                <td style="color: #C71585" class="d">Black</td>     
+            </tr> 
+        
+            <tr>
+                <td style="color:yellow" class="e">Marron</td>
+                <td style="color: #C71585" class="d">#800000</td>
+                <td style="color: #C71585" class="d">Marron</td>     
+            </tr> 
+        
+            <tr>
+                <td style="color:yellow" class="f">Verde Oscuro</td>
+                <td style="color: #C71585" class="d">#008000</td>
+                <td style="color: #C71585" class="d">Green</td>     
+            </tr> 
+            <tr>
+                <td style="color:yellow" class="g">Verde Oliva</td>
+                <td style="color: #C71585" class="d">#808000</td>
+                <td style="color: #C71585" class="d">Olive</td>     
+            </tr> 
+            <tr>
+                <td style="color:yellow" class="h">Azul Marino</td>
+                <td style="color: #C71585" class="d">#000080</td>
+                <td style="color: #C71585" class="d">Navy</td>     
+            </tr> 
+            <tr>
+                <td style="color:yellow" class="i">Morado</td>
+                <td style="color: #C71585" class="d">#800080</td>
+                <td style="color: #C71585" class="d">Purple</td>     
+            </tr> 
+            <tr>
+                <td style="color:#C71585" class="j">Azul Palido</td>
+                <td style="color: #C71585" class="d">#008080</td>
+                <td style="color: #C71585" class="d">Teal</td>     
+            </tr> 
+            <tr>
+                <td style="color:#C71585" class="k">Gris</td>
+                <td style="color: #C71585" class="d">#808080</td>
+                <td style="color: #C71585" class="d">Gray</td>     
+            </tr> 
+            <tr>
+                <td style="color:#C71585" class="l">Plata</td>
+                <td style="color: #C71585" class="d">#C0C0C0</td>
+                <td style="color: #C71585" class="d">Silver</td>     
+            </tr> 
+            <tr>
+                <td style="color:yellow" class="m">Rojo</td>
+                <td style="color: #C71585" class="d">#FF0000</td>
+                <td style="color: #C71585" class="d">Red</td>     
+            </tr> 
+            <tr>
+                <td style="color:#C71585" class="n">Verde Claro</td>
+                <td style="color: #C71585" class="d">#00FF00</td>
+                <td style="color: #C71585" class="d">Lime</td>     
+            </tr> 
+            <tr>
+                <td style="color:#C71585" class="o">Amarillo</td>
+                <td style="color: #C71585" class="d">#FFFF00</td>
+                <td style="color: #C71585" class="d">Yellow</td>     
+            </tr> 
+            <tr>
+                <td style="color:yellow" class="p">Azul</td>
+                <td style="color: #C71585" class="d">#0000FF</td>
+                <td style="color: #C71585" class="d">Blue</td>     
+            </tr> 
+            <tr>
+                <td style="color:yellow" class="q">Lila</td>
+                <td style="color: #C71585" class="d">#FF00FF</td>
+                <td style="color: #C71585" class="d">Fuchsia</td>     
+            </tr> 
+            <tr>
+                <td style="color:#C71585" class="r">Azul Claro</td>
+                <td style="color: #C71585" class="d">#00FFFF</td>
+                <td style="color: #C71585" class="d">Aqua</td>     
+            </tr> 
+            <tr>
+                <td style="color:#C71585" class="s">Blanco</td>
+                <td style="color: #C71585" class="d">#FFFFFF</td>
+                <td style="color: #C71585" class="d">White</td>     
+            </tr> 
+        </table>
+        <br>
+        <br>
+     <!--Quinta tabla-->
+            <table border="2" style="margin: 0 auto;" class="A4">
+                <tr>
+                <td>Item1</td>
+                <td colspan="2">Item2</td>
+                </tr>
+
+                <tr>
+                <td>Item3</td>
+                <td>Item4</td>
+                <td>Item5</td>
+                </tr>
+            </table>
+            <br>
+            <br>
+     <!--Sexta tabla-->
+        <table border="2" style="margin: 0 auto;" class="A5">
+            
+            <tr>
+                <td colspan="2"><b>Head1</td></b>
+                <td colspan="2"><b>Head2</td></b>
+             </tr>
+             <tr>
+                <td><b>Head3</td></b>
+                <td><b>Head4</td></b>
+                <td><b>Head5</td></b>
+                <td><b>Head6</td></b>
+             </tr>
+             <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+             </tr>
+             <tr>
+                <td>E</td>
+                <td>F</td>
+                <td>G</td>
+                <td>H</td>
+             </tr>
+         </table>
+         <br>
+         <br>
+         <!--Septima tabla-->
+         <table border="2" bordercolor="red" style="margin: 0 auto;" class="A6">
+
+               <tr>
+                   <td>Ejemplo de bordes</td>
+                   <td>de color rojo</td>
+                </tr>
+                <tr>
+                    <td>Ejemplo de bordes</td>
+                    <td>de color rojo</td>
+                </tr>
+            </table>
+
+         <!--Octava tabla-->
+
+         <table border="2" style="margin: 0 auto;">
+            <br>
+            <br>
+               <tr>
+                   <td><b>Declaración</td></b>
+                   <td>caption</td>
+                   <td>empty-cells</td>
+                   <td>border-collapse</td>
+                   <td>eborder-spacing</td>
+                   <td>table-layout</td>
+                   <td>White-space</td>
+                </tr>
+                <tr>
+                <td><b>Valor por defecto</td></b>
+                   <td>top</td>
+                   <td>show</td>
+                   <td>separate</td>
+                   <td>00</td>
+                   <td>auto</td>
+                   <td>normal</td>
+                </tr>
+                <tr class="A7">
+                    <td><b>Valores posibles</td></b>
+                    <td>top bottom</td>
+                    <td>show hide inherit</td>
+                    <td>separate collapse</td>
+                    <td>cualquiera unidad de medidad</td>
+                    <td>auto fixed</td>
+                    <td>normal pre nowrap</td>
+                </tr>
+                <tr>
+                    <td><b>Valores porcentual</td></b>
+                    <td>No aplicable</td>
+                    <td>No aplicable</td>
+                    <td>No aplicable</td>
+                    <td>No aplicable</td>
+                    <td>No aplicable</td>
+                    <td>No aplicable</td>
+                </tr>
+                <tr>
+                    <td><b>se aplica a</td></b>
+                    <td>table</td>
+                    <td>td th</td>
+                    <td>todos</td>
+                    <td>todos</td>
+                    <td>table</td>
+                    <td>todos</td>
+                </tr>
+                <tr>
+                    <td><b>se hereda a?</td></b>
+                    <td>No</td>
+                    <td>Si th</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>No</td>
+                    <td>No</td>
+                </tr>
+         </table>
+                            
+    </body>
+
+</html>

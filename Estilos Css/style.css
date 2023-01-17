@@ -1,0 +1,206 @@
+.tam{
+    font-size: 40px;
+}
+.peque{
+    font-size: small;
+}
+.med{
+    font-size: medium;
+}
+.larg{
+    font-size: large;
+}
+.xlarg{
+    font-size: xx-large;
+}
+.xxsm{
+    font-size: xx-small;
+}
+li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.mp {
+    font-size: 30%;
+}
+.pr1{
+    font-size: 80%;
+}
+.pr2{
+    font-size: 200%;
+}
+.pr3{
+    font-size: 300%;
+}
+.pb{
+    font-size: 120%;
+}
+.nrm{
+    font-size:normal;
+}
+#cuadrado {
+    width: 1250px; 
+    height: 300px; 
+    background: #73777a;
+    margin: 0px auto;
+}
+.cel2{
+    height: 50px;
+}
+
+td{
+    text-align: center;
+}
+
+table#prtabla {
+    border-style:groove; 
+    width: 1200px; 
+    border-width:1px 
+ }
+td.C1 {
+    background-color: #a8f7a8
+}
+td.medio {
+    background-color: #d65353;
+    text-align:center;
+}
+td.alto {
+    background-color: #940014;
+}
+td.bajo {
+    background-color: #99FF99;
+    text-align:center
+}
+td.al {
+    background-color: #65FFFF; 
+    text-align:left;
+}
+
+td.ce {
+     text-align:center; 
+     color: red;
+}
+td.de {
+    background-color: #FF99FF;
+    text-align:center; 
+    color: black;
+}
+thead.cabecera tr td {
+	border-style:inset;
+	border-width: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+thead.cuerpo tr td {
+	border-style:inset;
+	border-width: 1px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#prtabla{
+    margin: 0px auto;
+    margin-top: 40px;
+}
+.spi1{
+    margin-left: 40px;
+}
+#cursiva{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.a{
+    color: blue;
+}
+.b{
+   color:rgb(8, 8, 92);
+   background-color: yellow;
+}
+.c{
+   background-color: black;
+}
+.d{
+
+   background-color:#FFCBDF;
+}
+.e{
+   background-color:brown;
+}
+.f{
+   background-color:#0E7302;
+}
+.g{
+   background-color: olivedrab;
+}
+.h{
+   background-color:#000080;
+}
+.i{
+   background-color: purple;
+}
+.j{
+   background-color: #008080;
+}
+.k{
+   background-color: gray;
+}
+.l{
+   background-color: #c0c0c0;
+}
+.m{
+   background-color: #FF0000;
+}
+.n{
+   background-color: lime;
+}
+.o{
+   background-color: yellow;
+}    
+.p{
+   background-color: blue;
+}   
+.q{
+   background-color: fuchsia;  
+}   
+.r{
+   background-color: #00FFFF;
+}
+.s{
+   background-color: #FFFFFF;
+}
+.parrf{
+    margin-left: 40px;
+}
+.A1{
+  width: 30%;
+  height: 200px;
+}
+
+.A2{
+    width: 30%;
+    height: 200px;
+    margin-left: 40px;
+}
+
+.A3{
+    width: 40%;
+    height: 300px;
+    margin-left: 40px;
+}
+.A4{
+    width: 15%;
+    height: 50px;
+}
+.A5{
+    width: 30%;
+    height: 100px;
+}
+.A6{
+    width: 20%;
+    height: 50px;
+}
+.A7{
+    padding: 5px;
+    height: 60px;
+}
